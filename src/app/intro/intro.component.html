@@ -1,3 +1,4 @@
+<h1 class="title">Ethan Xu</h1>
 <h2 class="exu-title">Education</h2>
 <a class="education"> <b>{{ education.school }}</b>  &emsp; &emsp; &emsp; {{ education.class }}</a>
 <a class="education"> <br>{{ education.degree }}</a>
@@ -9,7 +10,7 @@
         class="internship" >
     <a class="highlight"> {{ internship.company }}  </a>
     <br>
-    <a class="indent"> {{ internship.description }} </a>
+    <a> {{ internship.description }} </a>
    </li>
 </ul>
 
@@ -18,6 +19,6 @@
   <li *ngFor="let project of projects" class="project">
      <a class="highlight"> {{ project.title }} </a>
      <br>
-     <a class="indent"> {{project.description }} </a>
+     <a> {{project.description }} </a>
   </li>
 </ul>
