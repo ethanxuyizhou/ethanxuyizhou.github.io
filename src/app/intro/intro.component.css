@@ -1,0 +1,26 @@
+.exu-title {
+    font-family: "Verdana";
+}
+
+.education {
+   font-family: "Verdana";
+   margin: 15px 0;
+}
+
+.internship {
+    font-family: "Verdana";
+    margin: 15px 0;
+}
+
+.project {
+    font-family: "Verdana";
+    margin: 15px 0;
+}
+
+.highlight {
+    color: #2dbccb 
+}
+
+.indent {
+    text-indent: 100px;
+}
