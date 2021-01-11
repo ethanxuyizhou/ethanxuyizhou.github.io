@@ -313,7 +313,7 @@ class IntroComponent {
     }
 }
 IntroComponent.ɵfac = function IntroComponent_Factory(t) { return new (t || IntroComponent)(); };
-IntroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: IntroComponent, selectors: [["intro"]], decls: 22, vars: 6, consts: [[1, "title"], [1, "exu-title"], [1, "education"], [2, "list-style-type", "none"], ["class", "internship", 4, "ngFor", "ngForOf"], ["class", "project", 4, "ngFor", "ngForOf"], [1, "internship"], [1, "highlight", 3, "href"], [1, "project"], [1, "highlight"]], template: function IntroComponent_Template(rf, ctx) { if (rf & 1) {
+IntroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: IntroComponent, selectors: [["intro"]], decls: 22, vars: 6, consts: [[1, "title"], [1, "exu-title"], [1, "education"], [2, "list-style-type", "none"], ["class", "internship", 4, "ngFor", "ngForOf"], ["class", "project", 4, "ngFor", "ngForOf"], [1, "internship"], [1, "highlight", 2, "text-decoration", "none", 3, "href"], [1, "project"], [1, "highlight"]], template: function IntroComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Ethan Xu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

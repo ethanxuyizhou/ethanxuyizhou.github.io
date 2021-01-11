@@ -8,7 +8,7 @@
 <ul style="list-style-type:none;">
    <li *ngFor="let internship of internships" 
         class="internship" >
-    <a href="{{ internship.url }}" class="highlight"> {{ internship.company }}  </a>
+    <a style="text-decoration:none" href="{{ internship.url }}" class="highlight"> {{ internship.company }}  </a>
     <br>
     <a> {{ internship.description }} </a>
    </li>
