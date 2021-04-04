@@ -1,4 +1,7 @@
 .option {
     font-family: "Verdana";
     color: #2dbccb;
+    border: none;
+    background-color: inherit;
+    font-size: 18px;
 }
